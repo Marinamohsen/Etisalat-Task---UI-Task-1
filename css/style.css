@@ -463,4 +463,9 @@ footer.footer {
   margin-top: 20px;
 }
 
+.footer a {
+  text-decoration-line: none;
+  color: #fff;
+}
+
 /* End Footer */
