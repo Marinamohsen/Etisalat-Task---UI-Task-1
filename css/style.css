@@ -121,3 +121,307 @@
 }
 
 /* Start carousel */
+
+/* Start Data Bundles */
+
+.buttons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.buttons button {
+  width: 800px;
+  height: 60px;
+  background-color: #229494;
+  color: #fff;
+  border: #fff;
+}
+
+.buttons button:hover {
+  color: #229494;
+  background-color: #fff;
+  border-radius: 6px;
+  border: #229494;
+}
+
+.pickPlan h5 {
+  color: gray;
+  padding: 20px;
+}
+
+.data-bundles {
+  display: flex;
+}
+
+.data-bundles div {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  border-radius: 50%;
+  align-content: space-around;
+}
+
+.data {
+  margin-bottom: 20px;
+}
+
+.data .valid-for {
+  background-color: #1a4f54;
+  color: white;
+  border-radius: 15px;
+  width: 150px;
+  margin-left: 100px;
+}
+
+.valid-for div {
+  border-radius: 20px;
+  padding-left: 10px;
+  width: 75px;
+}
+
+.valid-for .second-option {
+  background-color: #229494;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  margin-right: 5px;
+  color: #222534;
+  background-color: #e9ece7;
+  border: 5px solid #a1a29e;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  border: 5px solid #229494;
+}
+
+.icon p {
+  margin-top: 50%;
+}
+
+.social-media-icons .icon-bk {
+  background-color: #229494;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  margin: 50px 6px 10px 6px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.social-media-icons .icon-bk i {
+  font-size: 15px;
+  padding: 3px;
+}
+.check-price button {
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  border: 5px solid #229494;
+  background-color: #229494;
+  color: white;
+}
+
+.check-price button:hover {
+  background-color: #3eafaf;
+  border: 5px solid #3eafaf;
+}
+
+/* End Data Bundles */
+
+/* Start features */
+
+.features {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.features div {
+  justify-content: space-between;
+}
+
+.features-cover {
+  object-fit: contain;
+  width: 100%;
+}
+
+.features-cover h2 {
+  color: white;
+}
+
+.features-cover h5 {
+  margin: 30px;
+}
+
+.features .features-icon {
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+/* End features */
+
+/* End Add Ons */
+
+.add-ons .data button {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  border: 5px solid #174d59;
+  background-color: #174d59;
+  color: white;
+}
+
+.data .rectangle {
+  display: block;
+  height: 60px;
+  width: 200px;
+  background: white;
+  border: 3px solid #174d59;
+  position: relative;
+  margin-top: 50px;
+}
+
+.data .circle {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  border: 3px solid white;
+  margin-left: -25px;
+  background: #174d59;
+  top: 41px;
+  left: 25px;
+}
+
+.data .circle p {
+  margin-top: 27%;
+  margin-left: 17%;
+  color: white;
+}
+
+.data .rectangle p {
+  margin-left: 50%;
+  margin-top: 7%;
+  color: #174d59;
+}
+.Data-GB {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Data-Voice {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.add-ons .voice button {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  border: 5px solid #229494;
+  background-color: #229494;
+  color: white;
+}
+
+.voice .rectangle {
+  display: block;
+  height: 60px;
+  width: 200px;
+  background: white;
+  border: 3px solid #229494;
+  position: relative;
+  margin-top: 50px;
+}
+
+.voice .circle {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  border: 3px solid white;
+  margin-left: -25px;
+  background: #229494;
+  top: 41px;
+  left: 25px;
+}
+
+.shape {
+  margin-right: 15px;
+}
+
+.voice .circle p {
+  margin-top: 27%;
+  margin-left: 17%;
+  color: white;
+}
+
+.voice .rectangle p {
+  margin-left: 50%;
+  margin-top: 7%;
+  color: #229494;
+}
+
+/* End Add Ons */
+
+/* Start Terms & Conditions */
+
+.terms-conditions h2 {
+  color: #fff;
+  padding: 25px;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  margin-left: 50px;
+  margin-right: 10px;
+  border-radius: 40px;
+  background-color: hsl(180, 78%, 21%);
+}
+
+.condition {
+  padding-bottom: 15px;
+}
+
+.condition h5 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+/* End Terms & Conditions */
+
+/* Start Dmagh Tanya */
+
+.social-icons {
+  width: 56px;
+  border-radius: 14px;
+  margin: 20px 20px 55px 20px;
+}
+
+.dmagh-tanya h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #229494;
+}
+
+.dmagh-tanya h5 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #229494;
+}
+
+/* End Dmagh Tanya */
