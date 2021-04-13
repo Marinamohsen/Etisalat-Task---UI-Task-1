@@ -425,3 +425,42 @@
 }
 
 /* End Dmagh Tanya */
+
+/* Start Footer */
+
+footer.footer {
+  background-color: #303030;
+  color: #fff;
+}
+
+.about-us h4 {
+  padding-left: 35px;
+}
+
+.about-us ul li {
+  list-style-type: none;
+}
+
+.footer-icons {
+  padding: 20px;
+}
+
+.icon-bk {
+  width: 32px;
+  height: 22px;
+  display: flex;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-bk i {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.footer-classes {
+  margin-top: 20px;
+}
+
+/* End Footer */
